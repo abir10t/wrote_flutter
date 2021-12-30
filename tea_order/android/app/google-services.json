@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "454951987333",
+    "project_id": "ninja-brew-crew-adcfa",
+    "storage_bucket": "ninja-brew-crew-adcfa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454951987333:android:89c135a58d13acbc6921ec",
+        "android_client_info": {
+          "package_name": "com.example.tea_order"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454951987333-janlpsqtrq66gnat4h3j2j5i900beuj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1SS9gA8B1r7l7959KoraGAbEscZo3UTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454951987333-janlpsqtrq66gnat4h3j2j5i900beuj4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
