@@ -13,6 +13,16 @@
       if(_file != null){return await _file.readAsBytes();}
       print('no image selected');
     }
+    
+    
+          void selectImage() async
+       {
+
+        Uint8List im = await pickImage(ImageSource.gallery);
+        setState(() {
+          _image = im;
+        });
+      }
 
 
         
