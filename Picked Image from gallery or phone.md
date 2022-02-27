@@ -5,7 +5,7 @@
     import 'package:image_picker/image_picker.dart';
     
     
-     Uint8List? _image; /// make a Uint8List type variable
+    Uint8List? _image; /// make a Uint8List type variable
 
     pickImage(ImageSource source) async{
     
@@ -19,10 +19,7 @@
     }
     
     
-    
-    
-    
-          void selectImage() async {
+    void selectImage() async {
           
         Uint8List im = await pickImage(ImageSource.gallery);
         
@@ -34,12 +31,12 @@
       
       
       
-      onPressed : selectImage(),
+   onPressed : selectImage(),
    
    
   - show in view
   
-       CircleAvatar( backgroundImage: MemoryImage(_image!),)
+    CircleAvatar( backgroundImage: MemoryImage(_image!),)
       
       
       
