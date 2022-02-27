@@ -15,6 +15,7 @@
     }
     
     
+    Uint8List? _image;
     
           void selectImage() async
        {
@@ -24,6 +25,28 @@
           _image = im;
         });
       }
+      
+      
+      
+      
+      
+      
+      
+      onPressed : selectImage(),
+      
+      
+      
+      
+      
+      
+       CircleAvatar(
+                          radius: 64,
+                          backgroundImage: MemoryImage(_image!),
+                          backgroundColor: Colors.white,
+                  )
+      
+      
+      
 
 
         
