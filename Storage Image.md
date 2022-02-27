@@ -1,4 +1,4 @@
-##### pick image :
+##### image picker:
 
 
     import 'package:flutter/material.dart';
